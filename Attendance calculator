@@ -1,0 +1,82 @@
+A beginner-friendly attendance management system built using HTML, CSS, and JavaScript.
+This project is perfect for first-year students who want to understand DOM manipulation, tables, basic UI design, and localStorage.
+
+⭐ Features
+
+➕ Add students (Name + Roll No.)
+
+❌ Remove students
+
+✔️ Mark Present / Absent
+
+📅 Attendance saved for today’s date automatically
+
+💾 Data stored in LocalStorage (persists after refresh)
+
+📊 Shows total students, present count, and attendance percentage
+
+📤 Export today’s attendance as CSV
+
+👶 Simple, clean UI — easy for beginners to understand
+
+🛠️ Technologies Used
+Technology	Usage
+HTML	Structure of the webpage
+CSS	Styling and layout
+JavaScript (Vanilla)	Logic, DOM updates, localStorage, CSV export
+
+No frameworks. 100% simple frontend.
+
+📂 Project Structure
+attendance.html   → Main file (UI + CSS + JavaScript)
+README.md         → Project documentation
+
+
+If you split files later:
+
+index.html
+styles.css
+script.js
+README.md
+
+🚀 How to Run the Project
+
+Download or copy the attendance.html file.
+
+Open it using any browser:
+
+Google Chrome
+
+Microsoft Edge
+
+Mozilla Firefox
+
+Start adding students and marking attendance instantly.
+
+No backend, database, or installation required.
+
+🖼️ How the App Works
+✔ Add Student
+
+Enter Name + Roll No. → Click Add Student.
+
+✔ Mark Attendance
+
+Click on the Present / Absent button to toggle status.
+
+✔ Mark All
+
+Two quick actions:
+
+Mark All Present
+
+Mark All Absent
+
+✔ Export CSV
+
+Click Export CSV → Downloads a file:
+attendance_YYYY-MM-DD.csv
+
+✔ Clear All Data
+
+Deletes all saved students & attendance from localStorage.
